@@ -40,9 +40,9 @@ ul {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.4rem;
     font-weight: 600;
-    text-shadow: 3px 3px 3px#DAC0A3;
+    text-shadow: 2px 2px 2px#DAC0A3;
     padding-bottom: 30px;
     border-bottom: 1px solid var(--brown);
 }
@@ -58,7 +58,7 @@ h1 {
 }
 
 .titleName {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 300;
 }
 
@@ -78,7 +78,7 @@ h1 {
     height: 40px;
 }
 
-.burgerMenu>img {
+.burgerMenu > img {
     width: 100%;
 }
 
@@ -319,6 +319,12 @@ textarea {
     margin-top: 40px;
 }
 
+/* Ici commence la page Expérience *********************** */
+
+.experiencesList h2 {
+    font-size: 1.8rem;
+}
+
 /* Ici commence la page project ********************************************* */
 
 td {
@@ -327,26 +333,28 @@ td {
 
 .tableFlex {
     display: flex;
+    flex-direction: column;
     align-items: start;
     margin-top: 30px;
 }
 
 table img {
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 120px;
     margin-right: 20px;
     box-shadow: 5px 5px#DAC0A3;
     border-radius: 12px;
 }
 
 table h2 {
-    font-size: 1.5rem;
+    margin-top: 20px;
+    font-size: 1.7rem;
     font-weight: 600;
     text-shadow: 2px 2px 2px#DAC0A3;
 }
 
 table p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 10px 0 0;
 }
 
@@ -419,6 +427,44 @@ footer {
 
 /* Ici commence les media queries *********************************************** */
 
+@media only screen and (min-width: 375px) {
+    .titleName {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    h1 {
+        font-size: 3rem;
+        text-shadow: 3px 3px 3px#DAC0A3;
+    }
+
+    .tableFlex {
+        flex-direction: row;
+    }
+    
+    table img {
+        width: 150px;
+        height: 100px;
+    }
+
+    table h2 {
+        margin-top: 0;
+    }
+
+    .diplomesList {
+        font-size: 1.5rem;
+    }
+
+    .experiencesList h2 {
+        font-size: 2rem;
+    }
+
+    .hobbyFlex h2 {
+        font-size: 2.2rem;
+    }
+}
+
 @media only screen and (min-width: 768px) {
 
     main > h1 {
@@ -431,6 +477,10 @@ footer {
 
     .tdMargin {
         padding-right: 20px;
+    }
+
+    table h2 {
+        font-size: 1.52rem;
     }
 
     /* Ici commence l'index *************************** */
@@ -450,7 +500,7 @@ footer {
         margin-right: 15px;
     }
 
-    .textIndex>h2 {
+    .textIndex > h2 {
         font-size: 2rem;
     }
 
@@ -501,7 +551,7 @@ footer {
     }
 
     .hobbyFlex p {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     .hobbyFlex iframe {
@@ -565,9 +615,7 @@ footer {
 
 
     /* Ici commence la page diplôme ****************** */
-    .diplomesList {
-        font-size: 1.5rem;
-    }
+    
 
     /* Ici commence la page expériences ****************** */
 
