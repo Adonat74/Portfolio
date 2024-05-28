@@ -393,6 +393,11 @@ footer {
     border-top: 1px solid var(--brown);
 }
 
+.footerContactInfos {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
 .footerLogos img {
     width: 40px;
     margin: 20px 40px 0 0;
@@ -463,6 +468,10 @@ footer {
 
     .hobbyFlex h2 {
         font-size: 2.2rem;
+    }
+
+    .footerContactInfos {
+        font-size: 1.1rem;
     }
 }
 
@@ -659,5 +668,15 @@ footer {
     .hobbyFlex iframe {
         width: 30vw;
         height: 18vw;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footerContactInfos {
+        font-size: 1.2rem;
     }
 }
