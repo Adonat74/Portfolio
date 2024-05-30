@@ -395,7 +395,7 @@ footer {
 
 .phoneMenu {
     background-color: var(--brown);
-    font-size: 1.97rem;
+    font-size: 1.8rem;
     font-weight: 400;
 }
 
@@ -410,7 +410,7 @@ footer {
 
 .phoneMenu li {
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .underline {
