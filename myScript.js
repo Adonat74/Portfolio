@@ -1,20 +1,26 @@
-let isHidden = true;
-
+// let isHidden = true;
 let menuButton = document.querySelector(".burgerMenu");
-
 let mobileMenu = document.querySelector(".mobileMenu");
+let body = document.querySelector("body");
 
+
+// function toggleMenu () {
+//     isHidden = !isHidden;
+//     if (isHidden) {
+//         mobileMenu.classList.add("displayNone");
+//         mobileMenu.classList.remove("displayBlock");
+//         body.classList.remove("overFlowHidden");
+//     } else {
+//         mobileMenu.classList.remove("displayNone");
+//         mobileMenu.classList.add("displayBlock");
+//         body.classList.add("overFlowHidden");
+//     }
+// }
 
 function toggleMenu () {
-    isHidden = !isHidden;
-
-    if (isHidden) {
-        mobileMenu.classList.add("displayNone");
-        mobileMenu.classList.remove("displayBlock");
-    } else {
-        mobileMenu.classList.remove("displayNone");
-        mobileMenu.classList.add("displayBlock");
-    }
+    mobileMenu.classList.toggle("displayNone");
+    mobileMenu.classList.toggle("displayBlock");
+    body.classList.toggle("overFlowHidden");
 }
 
 
