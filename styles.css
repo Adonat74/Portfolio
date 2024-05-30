@@ -414,6 +414,9 @@ footer {
         font-size: 2.2rem;
     }
 
+    .footerContactInfos {
+        font-size: 1.1rem;
+    }
     
 }
 
@@ -515,7 +518,7 @@ footer {
 
     /* ici commence le footer ************************* */
     .footerContactInfos {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
 }
