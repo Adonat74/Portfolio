@@ -434,7 +434,7 @@ footer {
 
 .footerContactInfos {
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .footerLogos img {
@@ -485,9 +485,7 @@ footer {
         font-size: 2.2rem;
     }
 
-    .footerContactInfos {
-        font-size: 1.1rem;
-    }
+    
 }
 
 @media only screen and (min-width: 768px) {
@@ -582,6 +580,11 @@ footer {
     .hobbyFlex iframe {
         width: 40vw;
         height: 25vw;
+    }
+    
+    /* ici commence le footer ************************* */
+    .footerContactInfos {
+        font-size: 0.9rem;
     }
 
 }
