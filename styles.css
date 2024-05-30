@@ -581,10 +581,10 @@ footer {
         width: 40vw;
         height: 25vw;
     }
-    
+
     /* ici commence le footer ************************* */
     .footerContactInfos {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
 
 }
