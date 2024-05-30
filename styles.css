@@ -325,7 +325,12 @@ table h2 {
 
 table p {
     font-size: 1rem;
-    margin: 10px 0 0;
+    margin: 10px 0 10px;
+}
+
+table a {
+    font-weight: 500;
+    text-decoration: underline;
 }
 
 /*  Ici commence la page hobbby ********************************************** */
@@ -556,7 +561,7 @@ footer {
     }
 
     table img {
-        width: 250px;
+        min-width: 250px;
         height: 150px;
     }
 
