@@ -297,18 +297,19 @@ textarea {
 
 /* Ici commence la page project ********************************************* */
 
-td {
-    display: block;
+.projectPageFlex {
+    display: flex;
+    flex-direction: column;
 }
 
-.tableFlex {
+.articleFlex {
     display: flex;
     flex-direction: column;
     align-items: start;
     margin-top: 30px;
 }
 
-table img {
+.projectPageFlex img {
     width: 200px;
     height: 120px;
     margin-right: 20px;
@@ -316,20 +317,20 @@ table img {
     border-radius: 12px;
 }
 
-table h2 {
+.projectPageFlex h2 {
     margin-top: 20px;
     font-size: 1.7rem;
     font-weight: 600;
     text-shadow: 2px 2px 2px#DAC0A3;
 }
 
-table p {
+.projectPageFlex p {
     font-size: 1rem;
     margin: 10px 0 10px;
 }
 
-table a {
-    font-weight: 500;
+.projectPageFlex a {
+    font-weight: 600;
     text-decoration: underline;
 }
 
@@ -395,18 +396,11 @@ footer {
         text-shadow: 3px 3px 3px#DAC0A3;
     }
 
-    .tableFlex {
-        flex-direction: row;
-    }
-    
-    table img {
-        width: 150px;
-        height: 100px;
-    }
 
-    table h2 {
-        margin-top: 0;
-    }
+    
+    
+
+    
 
     .diplomesList {
         font-size: 1.5rem;
@@ -429,15 +423,17 @@ footer {
         margin-top: 30px;
     }
 
-    td {
-        display: table-cell;
+    .articleFlex {
+        flex-direction: row;
     }
 
-    .tdMargin {
-        padding-right: 20px;
+    .projectPageFlex img {
+        width: 150px;
+        height: 100px;
     }
 
-    table h2 {
+    .projectPageFlex h2 {
+        margin-top: 0;
         font-size: 1.52rem;
     }
 
@@ -556,35 +552,32 @@ footer {
     /* Ici commence la page projet ****************** */
 
 
-    .tableFlex {
+    .articleFlex {
         margin-top: 70px;
     }
 
-    table img {
+    .projectPageFlex img {
         min-width: 250px;
         height: 150px;
     }
 
-    table h2 {
+    .projectPageFlex h2 {
         font-size: 1.779rem;
         font-weight: 600;
         text-shadow: 2px 2px 2px#DAC0A3;
     }
 
-    table p {
+    .projectPageFlex p {
         font-size: 1.1rem;
     }
 
-
-
-    /* Ici commence la page diplôme ****************** */
-    
 
     /* Ici commence la page expériences ****************** */
 
     .contactExperiencesListItem {
         display: flex;
         align-items: center;
+        gap: 50px;
     }
 
     .reconversionText {
@@ -631,5 +624,23 @@ footer {
 
     .footerContactInfos {
         font-size: 1.2rem;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .projectPageFlex {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .articleFlex {
+        width: 48%;
+    }
+
+    .projectPageFlex img {
+        min-width: 250px;
+        height: 150px;
     }
 }
