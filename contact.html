@@ -42,7 +42,10 @@
     </header>
     <main class="main">
         <h1>Prenons contact!</h1>
-        <form action="https://httpbin.org/get" >
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="48ec6fc1-fcd6-4428-a720-1bbbe79031f6">
+
             <p>Les champs comprenant un * sont obligatoires.</p>
             <div class="textInputsFlex">
                 <div class="textInputs">
@@ -57,8 +60,6 @@
                     <textarea class="formInputs textarea" id="message" name="message" placeholder="Ecrivez votre message..." required aria-required="true"></textarea>
                 </label>
             </div>
-            
-
             
             <section class="radioInputs">
                 <h2>Comment m'avez vous connu? *</h2>
@@ -75,13 +76,6 @@
                     <label for="autre">Autre</label>
                 </div>
             </section>
-            
-
-            <label class="containerCheckbox">
-                <input type="checkbox" required aria-required="true">
-                <span class="checkmark"></span>
-                Je ne suis pas un robot *
-            </label>
 
             <div class="formButtonContainer">
                 <input class="formButton" type="submit" value="Submit">
