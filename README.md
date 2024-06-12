@@ -4,8 +4,13 @@
 
 ## Résultat Google Lighthouse :chart_with_upwards_trend:
 
+- The home page
 ![Screenshot of the result of google lighthouse on the index.html page](./images/index.png)
+
+- The project page
 ![Screenshot of the result of google lighthouse on the project.html page](./images/projets.png)
+
+- The contact page
 ![Screenshot of the result of google lighthouse on the contact.html page](./images/contact.png)
 
 ## Technologies utilisées :wrench:
