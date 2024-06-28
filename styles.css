@@ -153,7 +153,7 @@ h1 {
     text-shadow: 2px 2px 2px#DAC0A3;
 }
 
-.textIndex>p {
+.textIndex {
     font-size: 1.3rem;
 }
 
@@ -282,7 +282,7 @@ textarea {
 
 /* Ici commence la page Expérience *********************** */
 
-.reconversionText {
+.reconversionTextContainer {
     font-size: 1.2rem;
 }
 
@@ -565,7 +565,7 @@ footer {
         gap: 50px;
     }
 
-    .reconversionText {
+    .reconversionTextContainer {
         font-size: 1.4rem;
         margin-left: 50px;
         margin-right: 50px;
