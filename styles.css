@@ -41,11 +41,12 @@ ul {
 
 h1 {
     font-size: 2.2rem;
-    font-weight: 600;
-    text-shadow: 2px 2px 2px#DAC0A3;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px#DAC0A3;
     padding-bottom: 30px;
     margin-top: 15px;
     border-bottom: 1px solid var(--brown);
+    letter-spacing: -1px;
 }
 
 /* Ici commence le menu mobile hidden ********************************** */
@@ -135,7 +136,7 @@ h1 {
     margin: 15px 0;
 }
 
-.flexIndex > img {
+.portrait {
     width: 150px;
     height: 180px;
     object-fit: cover;
@@ -155,6 +156,13 @@ h1 {
 
 .textIndex {
     font-size: 1.3rem;
+}
+
+.lessIsMore {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+    letter-spacing: -1px;
 }
 
 /* Ici commence le main content de la page contact ********************************* */
@@ -385,7 +393,6 @@ footer {
 @media only screen and (min-width: 425px) {
     h1 {
         font-size: 3rem;
-        text-shadow: 3px 3px 3px#DAC0A3;
     }
 
     .experiencesList h2 {
@@ -429,9 +436,13 @@ footer {
         justify-content: space-between;
     }
 
-    .flexIndex>img {
+    .portrait {
         width: 200px;
         height: 250px;
+    }
+
+    .lessIsMore {
+        font-size: 1.7rem;
     }
 
     .textIndex {
@@ -529,9 +540,13 @@ footer {
 
     /* Ici commence l'index *************************** */
 
-    .flexIndex>img {
+    .portrait {
         width: 220px;
         height: 280px;
+    }
+
+    .lessIsMore {
+        font-size: 1.8rem;
     }
 
     /* Ici commence la page projet ****************** */
